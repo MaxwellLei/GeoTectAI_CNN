@@ -1,0 +1,78 @@
+# 忽略 Python 编译生成的文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略虚拟环境目录
+venv/
+env/
+
+# 忽略 dist build 和其他构建生成的文件夹
+build/
+dist/
+*.egg-info/
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 pyuic（UI 文件生成的 Python 代码）生成的临时文件，例如 ui_*.py
+*.py~
+
+# 忽略 Qt 生成的项目临时文件
+*.pro.user
+*.pro.user.*
+main.pro
+*.qmake.stash
+*.qmake.cache
+
+# 忽略 pipenv, poetry 或 conda 生成的虚拟环境文件/锁定文件
+Pipfile.lock
+poetry.lock
+*.envrc
+
+# 忽略 IDE/编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略日志文件
+*.log
+
+# 忽略打包外部库，避免提交大型依赖
+site-packages/
+
+# 忽略 Windows 操作系统生成的临时文件
+desktop.ini
+
+# 忽略 macOS 中的Spotlight存储文件
+.AppleDouble
+.LSOverride
+
+# 忽略 Linux 系统的临时文件
+*~
+
+# 忽略 PyInstaller 打包时生成的文件
+*.spec
+output/
+
+# 忽略 pytest, unittest 测试结果文件
+.pytest_cache/
+htmlcov/
+.testreport/
+
+# 忽略覆盖率文件
+coverage.xml
+coverage/
+.cache
+.tox
+
+# 忽略 MyPy 类型检查生成的缓存文件
+.mypy_cache/
+dmypy.json
+
+# 忽略 pylint/gcc/g++/clang 的缓存或报告
+pylint.log
+*.gcno
+*.gcda
