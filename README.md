@@ -1,4 +1,4 @@
-[🇺🇸 English Version]() [🇨🇳 简体中文]() 
+[🇨🇳 简体中文](https://github.com/MaxwellLei/GeoTectAI_CNN/blob/main/ReadMe_lg/README_zh_CN.md) 
 
 # Preface
 
@@ -10,7 +10,7 @@ For me, the experience of completing this `PyQT5` project is unforgettable. Alth
 
 # GeoTectAI_CNN Overview
 
-This project uses `PyQT5` as mentioned earlier. Writing desktop software with `Python 3.10.14` has felt catastrophic, especially during packaging. The project's goal is to use **basalt**'s more **dimensional** **geochemical data** to differentiate tectonic environment categories by training a convolutional neural network with 42 feature elements.
+This project uses `PyQT5` as mentioned earlier. Writing desktop software with `Python 3.10.14` has felt catastrophic, especially during packaging. The project's goal is to use **basalt**'s more **dimensional** **geochemical data** to differentiate tectonic settings categories by training a convolutional neural network with 42 feature elements.
 
 Thanks to the libraries and their developers, this project primarily relies on the following libraries (in addition to the Python standard library):
 
@@ -48,3 +48,4 @@ The software is divided into: **Home, Prediction Module, Settings Module**.
 Since this software is entirely developed in `Python`, I don't need to call deep learning code via third parties, making the project code relatively straightforward.
 
 # Screenshots
+![sc](https://github.com/MaxwellLei/GeoTectAI_CNN/blob/main/GeoTectAI_sc/fig1.jpg)
