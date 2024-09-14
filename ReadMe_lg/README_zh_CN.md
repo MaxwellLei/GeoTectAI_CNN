@@ -1,4 +1,4 @@
-[🇺🇸 English Version]() 
+[🇺🇸 English Version](https://github.com/MaxwellLei/GeoTectAI_CNN) 
 
 # 前言
 
@@ -48,4 +48,4 @@
 因为这次软件使用的是纯 `Python` 开发，所以对于深度学习的代码部分，我也并不需要通过第三方来调用，所以项目代码上会相对简单。
 
 # 截图
-
+![sc](https://github.com/MaxwellLei/GeoTectAI_CNN/blob/main/GeoTectAI_sc/fig1.jpg)
