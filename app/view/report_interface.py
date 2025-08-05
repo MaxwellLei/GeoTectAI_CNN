@@ -404,10 +404,16 @@ class ReportInterface(QWidget):
         self.overlay = OverlayWidget(self)
         self.overlay.hide()
 
+        # self.class_names = [
+        #         'ARCHEAN CRATON', 'CONTINENTAL FLOOD BASALT', 'CONVERGENT MARGIN',
+        #         'INTRAPLATE VOLCANICS', 'OCEAN ISLAND', 'OCEAN-BASIN FLOOD BASALT',
+        #         'OCEANIC PLATEAU', 'RIFT VOLCANICS', 'SEAMOUNT', 'SUBMARINE RIDGE'
+        #     ]
+
         self.class_names = [
-                'ARCHEAN CRATON', 'CONTINENTAL FLOOD BASALT', 'CONVERGENT MARGIN',
-                'INTRAPLATE VOLCANICS', 'OCEAN ISLAND', 'OCEAN-BASIN FLOOD BASALT',
-                'OCEANIC PLATEAU', 'RIFT VOLCANICS', 'SEAMOUNT', 'SUBMARINE RIDGE'
+                'AC', 'CFB', 'CM',
+                'IV', 'OI', 'OBFB',
+                'OP', 'RV', 'SM', 'SR'
             ]
 
     # 导出数据
